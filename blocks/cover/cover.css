@@ -2,6 +2,7 @@
     margin: 92px auto;
     max-width: 1184px;
     background: url(../../images/__background.png);
+    background-size: cover;
 }
 @media screen and (max-width: 1279px){
     .cover{
