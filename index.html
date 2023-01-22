@@ -3,22 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="vendor/fonts.css">
   <title>Путешествие по России</title>
 </head>
 <body class="page">
      <header class="header">
-        <img src="images/__logo.png" class="header__logo" alt="Логотип">
+        <img src="images/__logo.svg" class="header__logo" alt="Логотип">
         <div class="header__links">
-            <a href="#" class="header__lang-link">Ru</a>
+            <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
             <a href="#" class="header__lang-link">En</a>
         </div>
     </header>
     <main>
         <section class="lead">
-            <h2 class="lead__title">Путешествия по России</h2>
+            <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img src="images/__image.png" class="lead__image" alt="Картинка">
             <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
@@ -35,39 +34,37 @@
             </ul>   
         </section>
         <div class="photo-grid">
-            <img src="images/__item1.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item2.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item3.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item4.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item5.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item6.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item7.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item8.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item9.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item10.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item11.png" class="photo-grid__item" alt="Красивая картинка">
-            <img src="images/__item12.png" class="photo-grid__item" alt="Красивая картинка">    
+            <img src="images/__item1.png" class="photo-grid__item" alt="Окно поезда">
+            <img src="images/__item2.png" class="photo-grid__item" alt="Снежная гора">
+            <img src="images/__item3.png" class="photo-grid__item" alt="Волк на сене">
+            <img src="images/__item4.png" class="photo-grid__item" alt="Елки в тумане">
+            <img src="images/__item5.png" class="photo-grid__item" alt="Черное колесо машины на голубом льду Байкала">
+            <img src="images/__item6.png" class="photo-grid__item" alt="Пляж у моря">
+            <img src="images/__item7.png" class="photo-grid__item" alt="Менее снежная гора">
+            <img src="images/__item8.png" class="photo-grid__item" alt="Знак пешеходного перехода">
+            <img src="images/__item9.png" class="photo-grid__item" alt="Гора в тумаен">
+            <img src="images/__item10.png" class="photo-grid__item" alt="Поле и гора">
+            <img src="images/__item11.png" class="photo-grid__item" alt="Обрыв у моря">
+            <img src="images/__item12.png" class="photo-grid__item" alt="Облако на горе">    
         </div>
         <section class="places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__url"  href="http://park-kosa.ru">park-kosa.ru</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url"  href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                 </div>
                 <img class="place__image" src="images/__image-kosa.png" alt="Фото Куршской косы">
                 <div>
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                     <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-                
             </div>
-
             <div class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website" >
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                 </div>
                 <img class="place__image" src="images/__image-kolski.png" alt="Фото Кольских">
                 <div>
@@ -76,12 +73,11 @@
                         в Мурманск.</p>
                 </div>
             </div>
-
             <div class="place">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__url" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
                 </div>
                 <img class="place__image" src="images/__image-altai.png" alt="Фото Алтая">
                 <div>
@@ -90,12 +86,11 @@
                     <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
             </div>
-
             <div class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                 </div>
                 <img class="place__image" src="images/__image-baikal.png" alt="Фото Байкала">
                 <div>
@@ -105,12 +100,11 @@
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>    
             </div>
-
             <div class="place">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__url" href="http://vodlozero.ru">http://vodloero.ru/</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url" href="http://vodlozero.ru" target="_blank">http://vodloero.ru/</a>
                 </div>
                 <img class="place__image" src="images/__image-karelia.png" alt="Фото Карелии">
                 <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
@@ -126,13 +120,13 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__links">
+        <nav class="footer__links">
             <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
             <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
             <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
             <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
             <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-        </div>
+        </nav>
         <p class="footer__copyright">© 2022. Морковин Антон</p>
     </footer>
 </body>
